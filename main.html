@@ -4,10 +4,151 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body{
+			background-color: #c7cdc4; /* same soft gray-green tone as shown */
+			font-family: Arial, Helvetica, sans-serif;
+			display: flex;
+			justify-content: center;
+			margin: 0;
+			padding: 20px;
+			}
+
+		.mainContainer {
+			width: 1100px;
+			background-color: #c7cdc4;
+			}
+		.imageContainer {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 10px;
+			}
+
+		.imageContainer img {
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			border: 2px solid #999;
+			}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			background-color: #c7cdc4;
+			}
+
+		td {
+			border: 2px solid #999;
+			vertical-align: top;
+			padding: 10px;
+			}
+
+		.col-left,
+		.col-right {
+			width: 200px;
+			text-align: center;
+			background-color: #d5d9d0;
+			}
+
+		.col-middle {
+			width: 600px;
+			text-align: center;
+			background-color: #e0e2dc;
+			}
+
+		td img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			border: 1px solid #777;
+			}
+
+		.col-middle h2 {
+			text-align: center;
+			font-size: 18px;
+			text-decoration: underline;
+			margin-bottom: 10px;
+			}
+
+		.col-middle p {
+			text-align: justify;
+			line-height: 1.4;
+			margin: 10px 20px;
+			}
+
+		.highlight {
+			font-weight: bold;
+			}
+
+		a {
+			color: #0057a0;
+			text-decoration: none;
+			font-size: 0.9em;
+			}
+
+		a:hover {
+			text-decoration: underline;
+			}
+		</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<div class="mainContainer">
+		<div class="imageContainer">
+			<img src="https://images.unsplash.com/photo-1505843513577-22bb7d21e455" alt="Architecture Design Banner">
+		</div>
+
+		<table>
+			<tr>
+				<td class="col-left">
+					<img src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc" alt="Architecture Structure">
+				</td>
+				<td class="col-middle">
+					<p class="highlight">Unit #5 - Floor Plans</p>
+					<p>
+						A. Kitchen <br>
+						B. Bathroom <br>
+						C. Using "Slabs" <br>
+						D. Georgian Home <br>
+						E. Sketching Assignment #5
+					</p>
+				</td>
+				<td class="col-right">
+          <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Architecture Spiral">
+				</td>
+			</tr>
+			 <tr>
+        <td class="col-left">
+          <p><strong>HousePlans.com</strong><br>
+          The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas<br>
+			  <a href="#">learn more</a>
+		  </p>
+		</td>
+
+				  <td class="col-middle">
+          <h2>Objective</h2>
+          <p>
+            Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence.
+            Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles.
+            <br><br>
+            Plan the service area of a home by applying good design principles.
+            Design a functional kitchen to meet a family’s needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center.
+            <br><br>
+            Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room.
+            Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.
+		  </p>
+				  </td>
+
+				  <td class="col-right">
+          <p><strong>Green Floor</strong><br>
+          FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.<br>
+          <a href="#">learn more</a>
+		  </p>
+				  </td>
+			 </tr>
+		</table>
+	</div>							
     <script type="text/javascript" src="./script.js">
 </script>
 
